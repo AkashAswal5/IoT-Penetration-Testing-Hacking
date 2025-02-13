@@ -1,0 +1,23 @@
+SMB (Server Message Block Protocol): A client-server communication protocol used for sharing files, printers, serial ports, and other resources over a network.
+
+It operates as a response-request protocol over TCP/IP.
+Ports used:
+TCP 139 (NetBIOS Session Service)
+TCP 445 (Direct SMB over TCP)
+
+
+Enum4Linux is a tool for extracting SMB info from Windows & Linux systems.
+
+
+ SMB Exploitation Tools
+Nmap – Scan for SMB services (nmap -p 139,445 <IP>).
+smbclient – Access SMB shares (smbclient //<IP>/share -U user).
+enum4linux – Gather SMB information.
+Metasploit – Exploit SMB vulnerabilities.
+CrackMapExec – Automate SMB attacks.
+
+ Defense Against SMB Attacks
+Disable SMBv1
+Use strong authentication
+Restrict anonymous access
+Keep systems updated
