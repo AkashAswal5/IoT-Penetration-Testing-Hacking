@@ -1,0 +1,10 @@
+cp elon_musk.jpeg.jpg elon_musk_clean.jpg
+convert elon_musk.jpeg.jpg elon_musk_clean.jpg
+
+echo "This is the hidden message!" > secret.txt
+
+steghide embed -cf example.jpg -ef secret.txt
+
+steghide info example.jpg
+
+ steghide extract -sf 1.jpeg
