@@ -1,1 +1,9 @@
+MIFARE Classic: Lower security, used in legacy systems.
+MIFARE Plus: Improved security (AES encryption), for higher security applications.
+MIFARE DESFire: Very high security (AES encryption), used for sensitive applications.
+MIFARE Ultralight: Low-cost, low-security, for disposable applications.
 
+
+NTAG: Uses AES encryption, often for NFC-based applications.
+iCLASS: Uses proprietary encryption, primarily for secure access control.
+Felica: Uses proprietary encryption, commonly used in Japan for contactless payment and transport systems.
